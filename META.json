@@ -1,10 +1,10 @@
 {
    "abstract" : "Sitemap support for Catalyst.",
    "author" : [
-      "Yanick Champoux <yanick@babyl.dyndns.org>"
+      "Yanick Champoux <yanick@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.101590",
+   "generated_by" : "Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],
@@ -14,55 +14,66 @@
    },
    "name" : "Catalyst-Plugin-Sitemap",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build" : "0.3601"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.3601"
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "version" : "0.9901"
          }
       },
       "runtime" : {
          "requires" : {
-            "List::Util" : 0,
-            "Moose::Role" : 0,
-            "WWW::Sitemap::XML" : 0
+            "List::Util" : "0",
+            "Moose::Role" : "0",
+            "WWW::Sitemap::XML" : "0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Carp" : 0,
-            "Catalyst" : 0,
-            "Catalyst::Controller" : 0,
-            "Catalyst::Test" : 0,
-            "Scalar::Util" : 0,
-            "Test::More" : "0.94",
-            "parent" : 0,
-            "perl" : "5.004"
+            "Catalyst" : "0",
+            "Catalyst::Controller" : "0",
+            "Catalyst::Test" : "0",
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0.88",
+            "lib" : "0",
+            "parent" : "0",
+            "perl" : "5.006"
          }
       }
    },
    "provides" : {
       "Catalyst::Plugin::Sitemap" : {
          "file" : "lib/Catalyst/Plugin/Sitemap.pm",
-         "version" : "v1.0.0"
+         "version" : "v1.0.1"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "mailto" : "bug-catalyst-plugin-sitemap at rt.cpan.org",
-         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Catalyst-Plugin-Sitemap"
+         "web" : "https://github.com/yanick/Catalyst-Plugin-Sitemap/issues"
       },
-      "homepage" : "http://search.cpan.org/dist/Catalyst-Plugin-Sitemap/",
+      "homepage" : "https://github.com/yanick/Catalyst-Plugin-Sitemap",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/yanick/Catalyst-Plugin-Sitemap.git",
-         "web" : "http://github.com/yanick/Catalyst-Plugin-Sitemap/tree"
+         "url" : "https://github.com/yanick/Catalyst-Plugin-Sitemap.git",
+         "web" : "https://github.com/yanick/Catalyst-Plugin-Sitemap"
       }
    },
-   "version" : "1.0.0"
+   "version" : "1.0.1",
+   "x_author_pledge" : {
+      "version" : 1
+   },
+   "x_authority" : "cpan:YANICK",
+   "x_contributors" : [
+      "Alex J. G. Burzyński <ajgb@cpan.org>",
+      "Yanick Champoux <yanick@babyl.dyndns.org>"
+   ]
 }
 

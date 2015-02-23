@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,21 +14,30 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ec9d7233b92322084ff257368adcd37e8f392c4f Build.PL
-SHA1 a5008ab99697e794fd04d95f623e7862990bb888 Changes
-SHA1 3ee0d276167c367325eebe1d5ec9877ade504d93 LICENSE
-SHA1 27dbcf2e21d25049bc4486395d18d7550732f2d3 MANIFEST
-SHA1 abde2a3863a49bfec78410e7371c8196f4cef1ac META.json
-SHA1 7362ebdd1d8b2b1085bd8ead8ba7c574de7bc22b META.yml
-SHA1 9d90ff124e267a7a5f7968bad9197ea89d919fe4 lib/Catalyst/Plugin/Sitemap.pm
-SHA1 050aa113e828a52db3c86065c0c0ed50198b7ce8 t/000-report-versions.t
+SHA1 86dd4db83f2aed146caf30a49bd9aaa0891b041d AUTHOR_PLEDGE
+SHA1 ac961114990ca26adcfb53c673e81b9fb7378a0c CONTRIBUTORS
+SHA1 1c5087b59c5269e94a0b94d9b2ba4544224c5ff3 Changes
+SHA1 b3613c1d188a6a04a97b323e874a5d0faa675033 INSTALL
+SHA1 a258bb71db8b0eb019433c27d9480dd2cb15ede8 LICENSE
+SHA1 5372830cf69acb0f9aff46905696b542d99de65f MANIFEST
+SHA1 6073735eba646d7e2c6b24de138c7ccfb7496c23 META.json
+SHA1 a1d438c266a4a2549f9cbcf4f928b55e6285e68f META.yml
+SHA1 a4b8c43ff54c0ddd4fa8be43cb26fcaec23f21b7 Makefile.PL
+SHA1 2d682ea2c53f6c3224f4e7d32af5d82c611965ef README
+SHA1 acfe9d41ec32425c8f79ff9fb820d7639bf991b9 README.mkdn
+SHA1 111f9f56e02fa215ae5d9a784a43b114edaeb75c cpanfile
+SHA1 9abfa1621fe4ff3bfd9b1c9f3d9b455519e3a2c5 doap.xml
+SHA1 1ed9e8671166eb98c01397cf95b1f661ebbf4746 lib/Catalyst/Plugin/Sitemap.pm
+SHA1 38459d8b1d3504a17b66fc74220cf6db42fca0f6 t/00-compile.t
+SHA1 19a9ceea556ee078a1c6d1786e098948b13af0eb t/000-report-versions-tiny.t
 SHA1 bcc4b2250ff00f7dfad036512681c9ee57b9cf5a t/lib/TestApp.pm
 SHA1 7906b6e31e1e56c59cc970c66332f56cd41635ec t/lib/TestApp/Controller/Root.pm
-SHA1 67c7e4f0af7ea5454b0f33fb971675f2be5eb973 t/sitemap.t
+SHA1 00704a102f799d39d7bb80eb5869545e03836a18 t/sitemap.t
+SHA1 d1fe7d94b3edc7847eb187d4ee41f66e19cf8907 xt/release/unused-vars.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1
 
-iEYEARECAAYFAkz1teUACgkQ34Hwf+GwC4yskQCdHR3zsy//6fNlszKwS+aF1NxO
-lnUAoOaZJ1iW9BZYtNPWsgr+/ALcUm5L
-=CqLE
+iEYEARECAAYFAlTqkAIACgkQ34Hwf+GwC4wrcQCfeSQzCCjZtkfGLFfsVtElXt8c
+cKQAoNyMvqJ8b4A+5BtCuoXFnsb6NJAY
+=vlBR
 -----END PGP SIGNATURE-----
