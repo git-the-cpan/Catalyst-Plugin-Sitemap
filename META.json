@@ -4,7 +4,7 @@
       "Yanick Champoux <yanick@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Dist::Zilla version 5.040, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "perl_5"
    ],
@@ -21,7 +21,8 @@
       },
       "develop" : {
          "requires" : {
-            "version" : "0.9901"
+            "Test::More" : "0.96",
+            "Test::Vars" : "0"
          }
       },
       "runtime" : {
@@ -34,14 +35,18 @@
          }
       },
       "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
          "requires" : {
             "Catalyst" : "0",
             "Catalyst::Controller" : "0",
             "Catalyst::Test" : "0",
+            "ExtUtils::MakeMaker" : "0",
             "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
-            "Test::More" : "0.88",
+            "Test::More" : "0",
             "lib" : "0",
             "parent" : "0",
             "perl" : "5.006"
@@ -51,7 +56,7 @@
    "provides" : {
       "Catalyst::Plugin::Sitemap" : {
          "file" : "lib/Catalyst/Plugin/Sitemap.pm",
-         "version" : "v1.0.1"
+         "version" : "v1.0.2"
       }
    },
    "release_status" : "stable",
@@ -66,7 +71,7 @@
          "web" : "https://github.com/yanick/Catalyst-Plugin-Sitemap"
       }
    },
-   "version" : "1.0.1",
+   "version" : "1.0.2",
    "x_author_pledge" : {
       "version" : 1
    },

@@ -1,9 +1,7 @@
 package Catalyst::Plugin::Sitemap;
-BEGIN {
-  $Catalyst::Plugin::Sitemap::AUTHORITY = 'cpan:YANICK';
-}
+our $AUTHORITY = 'cpan:YANICK';
 # ABSTRACT: Sitemap support for Catalyst.
-$Catalyst::Plugin::Sitemap::VERSION = '1.0.1';
+$Catalyst::Plugin::Sitemap::VERSION = '1.0.2';
 use strict;
 use warnings;
 
@@ -86,7 +84,7 @@ Catalyst::Plugin::Sitemap - Sitemap support for Catalyst.
 
 =head1 VERSION
 
-version 1.0.1
+version 1.0.2
 
 =head1 SYNOPSIS
 
@@ -220,7 +218,7 @@ Original module that this plugin was using under the hood.
 Similar plugin for the L<Dancer> framework, which inspired
 C<Catalyst::Plugin::Sitemap>. 
 
-=item L<http://babyl.dyndns.org/techblog/entry/catalyst-plugin-sitemap>
+=item L<http://techblog.babyl.ca/entry/catalyst-plugin-sitemap>
 
 Blog article introducing C<Catalyst::Plugin::Sitemap>.
 

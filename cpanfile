@@ -8,13 +8,18 @@ on 'test' => sub {
   requires "Catalyst" => "0";
   requires "Catalyst::Controller" => "0";
   requires "Catalyst::Test" => "0";
+  requires "ExtUtils::MakeMaker" => "0";
   requires "File::Spec" => "0";
   requires "IO::Handle" => "0";
   requires "IPC::Open3" => "0";
-  requires "Test::More" => "0.88";
+  requires "Test::More" => "0";
   requires "lib" => "0";
   requires "parent" => "0";
   requires "perl" => "5.006";
+};
+
+on 'test' => sub {
+  recommends "CPAN::Meta" => "2.120900";
 };
 
 on 'configure' => sub {
@@ -22,5 +27,6 @@ on 'configure' => sub {
 };
 
 on 'develop' => sub {
-  requires "version" => "0.9901";
+  requires "Test::More" => "0.96";
+  requires "Test::Vars" => "0";
 };
